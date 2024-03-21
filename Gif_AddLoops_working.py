@@ -1,7 +1,7 @@
 import imageio
 
 AddLoopsTimes = 10
-
+#
 # Load the GIF file
 input_gif_path = "Gif_Mods\winbootlogo-current.gif"
 output_gif_path = "C:/Users/shaik/OneDrive/Desktop/current codes/Gif_Mods/output10.gif"

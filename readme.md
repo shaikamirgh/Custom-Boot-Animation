@@ -12,6 +12,7 @@ This Streamlit app allows you to increase the number of loops in a GIF file.
 
 4. **Download Modified GIF:** Once modified, you can download the modified GIF using the "Download Modded GIF" button.
 
+
 ## Demo
 
 ![Demo](demo.gif)
