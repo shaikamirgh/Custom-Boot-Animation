@@ -15,12 +15,12 @@ This Streamlit app allows you to increase the number of loops in a GIF file.
 
 ## Demo
 
-![Demo](demo.gif)
+![Demo](https://github.com/shaikamirgh/Custom-Boot-Animation/blob/main/Demo.mp4)
 
 ## Example GIFs
 
-- [Input GIF Example](input.gif)
-- [Output (Modified) GIF Example](output.gif)
+- [Input GIF Example](https://github.com/shaikamirgh/Custom-Boot-Animation/blob/main/input.gif)
+- [Output (Modified) GIF Example](https://github.com/shaikamirgh/Custom-Boot-Animation/blob/main/output10.gif)
 
 ## Running the App Locally
 
