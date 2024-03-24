@@ -64,7 +64,7 @@ def main():
     else:
         image = Image.open('input.gif')
         #st.image(image, caption='Default GIF for you to try!', use_column_width=True)
-        #st.markdown("![Default GIF for you to try! Drag and Drop!](https://github.com/shaikamirgh/Custom-Boot-Animation/blob/main/input.gif)")
+        st.markdown("![Default GIF for you to try! Drag and Drop!](https://github.com/shaikamirgh/Custom-Boot-Animation/blob/main/input.gif)")
         st.markdown("![Default GIF for you to try! Drag and Drop!](https://media.giphy.com/media/og52So0BUmZVe/giphy.gif)")
 
 if __name__ == "__main__":
