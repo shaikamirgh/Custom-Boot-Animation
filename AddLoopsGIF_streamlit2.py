@@ -1,6 +1,7 @@
 import streamlit as st
 import imageio
 import os
+from PIL import Image
 
 def increase_gif_loops(input_gif_path, output_gif_path, num_loops):
     with imageio.get_reader(input_gif_path) as reader:
@@ -60,6 +61,10 @@ def main():
             modified_size = os.path.getsize("output.gif") / 1024
             st.write(f"Original GIF Size: {original_size:.2f} KB")
             st.write(f"Modified GIF Size: {modified_size:.2f} KB")
+    else:
+        image = Image.open('input.gif')
+        st.image(image, caption='Default GIF for you to try!', use_column_width=True)
+        
 
 if __name__ == "__main__":
     main()
