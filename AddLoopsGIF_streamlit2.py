@@ -62,8 +62,8 @@ def main():
             st.write(f"Original GIF Size: {original_size:.2f} KB")
             st.write(f"Modified GIF Size: {modified_size:.2f} KB")
     else:
-        image = Image.open('input.gif')
-        st.image(image, caption='Default GIF for you to try!', use_column_width=True)
+        # image = Image.open('input.gif')
+        st.video("https://github.com/shaikamirgh/Custom-Boot-Animation/blob/main/input.gif")
         #st.markdown("![Default GIF for you to try! Drag and Drop!](https://github.com/shaikamirgh/Custom-Boot-Animation/blob/main/input.gif)")
         #st.markdown("![Default GIF for you to try! Drag and Drop!](https://media.giphy.com/media/og52So0BUmZVe/giphy.gif)")
 
