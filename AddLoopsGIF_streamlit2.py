@@ -63,8 +63,8 @@ def main():
             st.write(f"Modified GIF Size: {modified_size:.2f} KB")
     else:
         image = Image.open('input.gif')
-        st.image(image, caption='Default GIF for you to try!', use_column_width=True)
-        
+        #st.image(image, caption='Default GIF for you to try!', use_column_width=True)
+        st.markdown("![Default GIF for you to try! Drag and Drop!](https://github.com/shaikamirgh/Custom-Boot-Animation/blob/main/input.gif)")
 
 if __name__ == "__main__":
     main()
